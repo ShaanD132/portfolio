@@ -1,12 +1,10 @@
-import { Box, Button, Container } from "@chakra-ui/react";
+import { Container, Heading, Box } from "@chakra-ui/react"
 
 export default function Resume() {
-  return(
-    <Container m={10}>
-      Resume
-      <Box p={4}>
-        <Button>Hello World!</Button>
-      </Box>
+  return (
+    <Container mt={10}>
+      <Heading as="h1">Shaan Dussoye</Heading>
+      <Box fontFamily="Satoshi">Pursuing a BEng Computer Science at HKUST.</Box>
     </Container>
   )
 }
